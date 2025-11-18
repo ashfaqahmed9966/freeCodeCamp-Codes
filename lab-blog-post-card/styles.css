@@ -1,0 +1,35 @@
+.blog-post-card {
+  background-color: white;
+  border-radius: 10px;
+  width: 450px;
+  text-align: center;
+}
+
+.post-img {
+  width: 100%;
+  border-bottom: 5px solid black;
+}
+
+.post-content {
+  padding: 10px;
+}
+
+.post-title , .post-excerpt {
+  color: #003049;
+  margin: 5px;
+}
+
+.read-more {
+  color: #fefae0;
+  background-color:#4a5759;
+  padding:7px;
+  margin: 10px;
+  border-radius:5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.read-more:hover {
+  background-color: #2a9d8f;
+  text-decoration: underline;
+}

@@ -1,0 +1,27 @@
+.todo-list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #94d2bd;
+}
+
+a:visited {
+  color: #0a9396;
+}
+
+a:hover {
+  color: #ee9b00;
+}
+
+a:focus {
+  outline: 2px solid purple;
+}
+
+a:active {
+  color: #f0ead2;
+}

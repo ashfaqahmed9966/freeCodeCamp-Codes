@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scalae=1.0" >
+    <title>Ashfaq's Survey Form</title>
+    <link rel="stylesheet" href="styles.css" >
+  </head>
+  <body>
+    <main>
+    <h1 id="title" >Survey Form</h1>
+    <p id="description" >Made by <i>Ashfaq Ahmed</i></p>
+    <form id="survey-form" >
+      <section>
+      <label id="name-label" >Name: </label><input id="name" type="text" placeholder="Enter Your Name Here" required></input>
+      <label id="email-label" >email: </label><input id="email" type="email" placeholder="Your Email" required ></input>
+      <label id="number-label" >Age: </label><input id="number" type="number" min="18" max="60" placeholder="Your Age" ></input>
+      </section>
+      <section>
+        <fieldset>
+          <legend>Who is Ashfaq for you ?</legend>
+          <select id="dropdown" >
+            <option>Select</option>
+            <option>Relative</option>
+            <option>Friend</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>What is Your Age ?</legend>
+        <input type="radio" value="adult-user" name="age-check" > Above 18 years of age</input>
+        <input type="radio" value="underage-user" name="age-check" > Below 18 years of age</input>
+      </fieldset>
+      <fieldset>
+          <legend>What do you like ?</legend>
+        <input type="checkbox" value="adult-user" value="biryani" > Biryani</input>
+        <input type="checkbox" value="mandi" > Mandi</input>
+        <input type="checkbox" value="other" > Other</input>
+      </fieldset>
+      </section>
+      <textarea></textarea>
+      <button id="submit" type="submit" >Submit</button>
+    </form>
+    </main>
+    
+
+  </body>

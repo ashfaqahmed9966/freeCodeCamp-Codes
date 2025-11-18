@@ -1,0 +1,27 @@
+body {
+  background-color: rosybrown;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  margin: 5px 0;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.business-card {
+  width: 300px;
+  background-color: #d8f3dc;
+  padding: 20px;
+  margin: 100px auto 0;
+  text-align: center;
+  font-size: 16px;
+  
+}
