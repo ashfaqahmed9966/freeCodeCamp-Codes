@@ -1,0 +1,43 @@
+body {
+  background-color: #f4f4f4;
+}
+
+.color-box {
+  width: 100px;
+  height: 100px;
+}
+
+.color1 {
+  background-color: #003049;
+  border-radius: 15px;
+}
+
+.color2 {
+  background-color: rgb(214, 40, 40);
+  border-radius: 15px;
+}
+
+.color3 {
+  background-color: Orange;
+  border-radius: 15px;
+}
+
+.color4 {
+  background-color: hsl(40, 97%, 64%); 
+  border-radius: 15px
+}
+
+.color5 {
+  background-color: #EAE2B7;
+  border-radius: 15px;
+}
+
+.color-grid {
+  display: flex;
+}
+
+.color-box {
+  min-width: 10px;
+  min-height: 10px;
+  margin: 10px;
+}

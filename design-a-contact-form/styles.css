@@ -1,0 +1,46 @@
+.form-container {
+  background: radial-gradient(circle, #bde0fe, #ffafcc, #ffc8dd);
+  border-radius: 15px;
+  padding: 15px;
+  width: 90%;
+  max-width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+label {
+  margin:1px;
+  display: flex;
+  justify-content: center;
+  color: #264653;
+  align-items: center;
+}
+
+input, textarea {
+  width: 85%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: 2px solid #001524;
+  background-color: #fffcf2;
+}
+
+button {
+  background-color: #cbf3f0;
+  font-size: 1.1em;
+  border-radius: 7px;
+  diplay: inline-block;
+  margin: 10px 75% 10px 35%;
+  transition: background-color 0.5s ease;
+}
+
+button:hover { background-color: #3c096c;
+color: #fffcf2;
+
+}
+
+h2 {
+  text-align: center;
+}
