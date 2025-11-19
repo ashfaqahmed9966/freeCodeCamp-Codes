@@ -1,0 +1,27 @@
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+a {
+  display: block;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  text-decoration: none;
+  color: #9046cf;
+}
+
+a:hover {
+  color: #fde12d;
+}
+
+a:active {
+  color: #415d43;
+}
+
+a:visited {
+  color: #f487b6;
+}
