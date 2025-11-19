@@ -1,0 +1,31 @@
+@media (max-width: 767px) {
+  body {
+    width: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    width: 600px;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    width: 800px;
+  }
+}
+
+#navbar {
+  position: fixed;
+  grid-area: navbar;
+  top: 0%;
+  left: 0%;
+  
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "navbar"
+}
