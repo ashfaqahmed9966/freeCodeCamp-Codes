@@ -1,0 +1,16 @@
+console.log("Hello! I'm your coding fun fact guide!");
+let botName;
+let botLocation;
+let favoriteLanguage;
+botName = "Mudabbir";
+botLocation = "Hyderabad";
+favoriteLanguage = "Urdu";
+console.log("My name is " + botName + " and I live on " + botLocation + ".");
+console.log("My favorite programming language is " + favoriteLanguage + ".");
+let codingFact = "The fun fact is " + favoriteLanguage + " is an Indian Language";
+console.log(codingFact);
+codingFact = "English is used as Buiness language, not " + favoriteLanguage + ".";
+console.log(codingFact);
+codingFact = "But Hindi is related language to " + favoriteLanguage + ".";
+console.log(codingFact);
+console.log("It was fun sharing these facts with you. Goodbye! - " + botName +  " from " + botLocation +".");
