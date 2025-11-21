@@ -1,0 +1,55 @@
+let questions = [ 
+  {
+  category: "A",
+  question: "What is your name ?",
+  choices: ["Ash", "Mike", "July"],
+  answer: "Ash"
+},
+
+{
+  category: "B",
+  question: "Where do I stay ?",
+  choices: ["USA", "Hyderabad", "Banglore"],
+  answer: "Hyderabad"
+},
+
+{
+  category: "C",
+  question: "am I doing Job ?",
+  choices: ["Yes", "No", "Mightbe"],
+  answer: "Yes"
+},
+
+{
+  category: "D",
+  question: "Will Ash discloses salary ?",
+  choices: ["No", "Yes", "Sometimes"],
+  answer: "Sometimes"
+},
+
+{
+  category: "E",
+  question: "What Ash wants to be ?",
+  choices: ["AR Caller", "Accountant", "Full Stack Developer"],
+  answer: "Full Stack Developer"
+}
+
+];
+
+function getRandomQuestion(arr) {
+  let random = Math.floor(Math.random() * arr.length);
+  return arr[random];
+};
+
+function getRandomComputerChoice(arr) {
+  let random = Math.floor(Math.random() * arr.length);
+  return arr[random];
+};
+
+function getResults(questionObj, computerChoice) {
+  if (computerChoice === questionObj.answer) {
+    return "The computer's choice is correct!";
+  } else {
+    return `The computer's choice is wrong. The correct answer is: ${questionObj.answer}`;
+  }
+}
